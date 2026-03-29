@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "Використання JavaScript у клієнтських сценаріях",
         repo: "https://github.com/elora-coder/myprojects/tree/main/film",
         site: "https://elora-coder.github.io/myprojects/film/"
-    }
+    },
     {
         title: "Лабораторна №5",
         category: "js",
