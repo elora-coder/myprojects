@@ -43,6 +43,13 @@ document.addEventListener("DOMContentLoaded", () => {
         repo: "https://github.com/elora-coder/myprojects/tree/main/film",
         site: "https://elora-coder.github.io/myprojects/film/"
     }
+    {
+        title: "Лабораторна №5",
+        category: "js",
+        description: "Веб-сервіс, що визначає ймовірний вік людини за її ім’ям за допомогою публічного API.",
+        repo: "https://github.com/elora-coder/myprojects/tree/main/agify",
+        site: "https://elora-coder.github.io/myprojects/agify/"
+    }
 ];
 
 
