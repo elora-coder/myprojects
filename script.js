@@ -21,30 +21,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     // ====== ДАНІ ПРОЄКТІВ ======
-    const projects = [
-        {
-            title: "Портфоліо",
-            category: "design",
-            description: "Головна сторінка портфоліо",
-            repo: "https://github.com/elora-coder/portfolio-site",
-            site: "https://elora-coder.github.io/portfolio-site/"
-        },
-        {
-            title: "Портфоліо 2.0",
-            category: "js",
-            description: "Портфоліо зі змінами",
-            repo: "https://github.com/elora-coder/portfolio-site",
-            site: "https://elora-coder.github.io/portfolio-site/"
-        },
-        {
-            title: "Лабораторна №3",
-            category: "js",
-            description: "Використання JavaScript у клієнтських сценаріях",
-            repo: "https://github.com/твій_репозиторій/pr3",
-            site: "https://твій_нік.github.io/pr3/"
-        }
-        
-    ];
+   const projects = [
+    {
+        title: "Портфоліо",
+        category: "design",
+        description: "Головна сторінка портфоліо",
+        repo: "https://github.com/elora-coder/myprojects/tree/main/portfolio",
+        site: "https://elora-coder.github.io/myprojects/portfolio/"
+    },
+    {
+        title: "Портфоліо 2.0",
+        category: "js",
+        description: "Портфоліо зі змінами",
+        repo: "https://github.com/elora-coder/myprojects/tree/main/portfolio_main",
+        site: "https://elora-coder.github.io/myprojects/portfolio_main/"
+    },
+    {
+        title: "Лабораторна №3",
+        category: "js",
+        description: "Використання JavaScript у клієнтських сценаріях",
+        repo: "https://github.com/elora-coder/myprojects/tree/main/film",
+        site: "https://elora-coder.github.io/myprojects/film/"
+    }
+];
 
 
     // ====== РЕНДЕР ======
