@@ -26,14 +26,14 @@ document.addEventListener("DOMContentLoaded", () => {
         title: "Портфоліо",
         category: "design",
         description: "Головна сторінка портфоліо",
-        repo: "https://github.com/elora-coder/myprojects/tree/main/portfolio",
+        repo: "https://github.com/elora-coder/myprojects/tree/main/portfolio_main",
         site: "https://elora-coder.github.io/myprojects/portfolio/"
     },
     {
         title: "Портфоліо 2.0",
         category: "js",
         description: "Портфоліо зі змінами",
-        repo: "https://github.com/elora-coder/myprojects/tree/main/portfolio_main",
+        repo: "https://github.com/elora-coder/myprojects/tree/main/portfolio",
         site: "https://elora-coder.github.io/myprojects/portfolio_main/"
     },
     {
