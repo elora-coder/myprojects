@@ -1,0 +1,112 @@
+{
+  "uk": {
+    "hero_label": "Student Portfolio",
+    "hero_title": "Катерина",
+    "hero_subtitle": "Front-end студент • Веб-дизайн • Креатив",
+    "contact_button": "Зв’язатися зі мною",
+    "hero_greeting":"Привіт, мене звати Катерина",
+    "hero_subtitle_2":"Хочете привітатися? Пишіть!",
+    "send_email":"Надіслати e-mail",
+
+    "nav_home": "Головна",
+    "nav_about": "Про мене",
+    "nav_skills": "Навички",
+    "nav_education": "Освіта",
+    "nav_contacts": "Контакти",
+    "nav_project": "Проєкти",
+
+    "technologies_title": "Основні технології",
+    "about_title": "Про мене",
+    "about_1": "Цікавлюся веб-розробкою та цифровими технологіями. У вільний час люблю дивитися фільми, грати в комп’ютерні та настільні ігри, а також подорожувати, відкриваючи нові місця та культури.",
+    "about_2": "Хочу навчитися створювати інтерфейси, що викликають довіру та залишають враження.",
+
+    "skills_title": "Навички",
+    "skills_main": "Основні технології",
+    "skills_tools": "Дизайн та інструменти",
+    
+    "softskills_1":"Швидко навчаюся новому",
+    "softskills_2":"Відповідально ставлюся до завдань",
+    "softskills_3":"Уважна до деталей",
+    "softskills_4":"Орієнтована на результат",
+    "softskills_5":"Вміння працювати як самостійно, так і в команді",
+
+    "education_title": "Освіта",
+    "edu_kpi": "Національний технічний університет України «КПІ ім. Ігоря Сікорського»",
+    "edu_speciality": "Спеціальність: Коп'ютерні науки",
+    "edu_period": "Період 2024-2028",
+    "edu_courses": "Додаткові курси",
+    "edu_shag": "Мала комп’ютерна академія «ШАГ»",
+    "edu_program":"Програма додаткової ІТ-освіти для підлітків.",
+
+    "edu_1": "Веб-розробка: HTML, JavaScript, Wix",
+    "edu_2": "Графічний та веб-дизайн: Photoshop, Illustrator, Figma, Inkscape, GIMP",
+    "edu_3": "3D-графіка та анімація: Blender, Autodesk 3ds Max, TinkerCad",
+    "edu_4": "Програмування: Python, C#, Go",
+    "edu_5": "Медіа та контент: Adobe Premiere, Sony Vegas, цифрова фотографія",
+    "edu_6": "Робототехніка та основи IT",
+
+    "contacts_title":"Контактна інформація",
+    "work_channels":"Робочі канали",
+    "fast_reply":"Найшвидший спосіб отримати відповідь — написати в Telegram або на пошту.",
+    "dev_section":"Для розробників",
+    "quote":"Код бачать усі, але розуміють лише ті, хто ним живе.",
+    "footer_location":"Місцезнаходження: м. Харків, Україна",
+
+    "footer_rights": "Усі права захищено."
+  },
+
+  "en": {
+    "hero_label": "Student Portfolio",
+    "hero_title": "Kateryna",
+    "hero_subtitle": "Front-end student • Web design • Creative",
+    "contact_button": "Contact me",
+    "hero_greeting":"Hello, my name is Kateryna",
+    "hero_subtitle_2":"Want to say hello? Write!",
+    "send_email":"Send e-mail",
+
+    "nav_home": "Home",
+    "nav_about": "About me",
+    "nav_skills": "Skills",
+    "nav_education": "Education",
+    "nav_contacts": "Contacts",
+    "nav_project": "Project",
+
+    "about_title": "About Me",
+    "about_1": "I am interested in web development and digital technologies. In my free time I enjoy movies, video and board games. I travel and explore new cultures and places.",
+    "about_2": "I want to create interfaces that feel intuitive and trustworthy.",
+
+    "skills_title": "Skills",
+    "skills_main": "Core technologies",
+    "skills_tools": "Design tools",
+    
+    "softskills_1":"I learn new things quickly",
+    "softskills_2":"I take responsibility for tasks",
+    "softskills_3":"I pay attention to details",
+    "softskills_4":"I am result-oriented",
+    "softskills_5":"Ability to work both independently and in a team",
+
+    "education_title": "Education",
+    "edu_kpi": "National Technical University of Ukraine “Igor Sikorsky KPI”",
+    "edu_speciality": "Specialization: Computer Science",
+    "edu_period": "Period 2024-2028",
+    "edu_courses": "Additional courses",
+    "edu_shag": "Small Computer Academy “ШАГ”",
+    "edu_program":"Additional IT education program for teenagers.", 
+
+    "edu_1": "Web Development: HTML, JavaScript, Wix",
+    "edu_2": "Graphic and Web Design: Photoshop, Illustrator, Figma, Inkscape, GIMP",
+    "edu_3": "3D Graphics and Animation: Blender, Autodesk 3ds Max, TinkerCad",
+    "edu_4": "Programming: Python, C#, Go",
+    "edu_5": "Media and Content: Adobe Premiere, Sony Vegas, Digital Photography",
+    "edu_6": "Robotics and IT Fundamentals",
+
+    "contacts_title":"Contact information",
+    "work_channels":"Working channels",
+    "fast_reply":"The fastest way to get an answer is to write to Telegram or email.",
+    "dev_section":"For developers",
+    "quote":"Everyone sees the code, but only those who live it understand it.",
+    "footer_location":"Location: Kharkiv, Ukraine",
+
+    "footer_rights": "All rights reserved."
+  }
+}

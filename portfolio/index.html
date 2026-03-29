@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Головна сторінка портфоліо студента.">
+  <link rel="stylesheet" href="style.css">
+  <title>Портфоліо | Kateryna-el0ra</title>
+</head>
+<body>
+  <header class="hero">
+  <div class="hero-text">
+    <p class="hero-label" data-key="hero_label">Student Portfolio</p>
+
+    <h1 data-key="hero_title">Катерина</h1>
+
+    <p class="hero-subtitle" data-key="hero_subtitle">
+      Front-end student • Web design • Creative
+    </p>
+
+    <a href="#contacts" class="btn" data-key="contact_button">Зв’язатися зі мною</a>
+  </div>
+
+  <div class="photo-wrapper">
+    <span class="blob"></span>
+    <img src="img/me.jpg" alt="Портрет Катерини" class="hero-img">
+  </div>
+  
+  <div class="controls">
+  <button id="theme-toggle">🌓</button>
+  <button class="lang-btn" data-lang="uk">UA</button>
+  <button class="lang-btn" data-lang="en">EN</button>
+</div>
+</header>
+
+  <nav aria-label="Головна навігація">
+    <ul>
+      <li><a data-key="nav_home" href="index.html" aria-current="page">Головна</a></li>
+      <li><a data-key="nav_about" href="#about">Про мене</a></li>
+      <li><a data-key="nav_skills" href="#skills">Навички</a></li>
+      <li><a data-key="nav_education" href="#education">Освіта</a></li>
+      <li><a data-key="nav_contacts" href="contacts.html">Контакти</a></li>
+      <li><a data-key="nav_project" href="/index.html">Проєкти</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2 data-key="about_title">Про мене</h2>
+      <article>
+        <p data-key="about_1">Цікавлюся веб-розробкою та цифровими технологіями. 
+          У вільний час люблю дивитися фільми, грати в комп’ютерні та настільні ігри,
+          а також подорожувати, відкриваючи нові місця та культури.</p>
+      </article>
+      <article>
+        <p data-key="about_2">
+          Хочу навчитися створювати інтерфейси, які викликають 
+          довіру, легко сприймаються та залишають приємне враження.
+        </p>
+      </article>
+  </section>
+
+    <section>
+
+      <section id="skills">
+        <h2 data-key="skills_title">Навички</h2>
+
+        <article>
+          <h3 data-key="skills_main">Основні технології</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3 data-key="skills_tools">Дизайн та інструменти</h3>
+          <ul>
+            <li>Figma</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+            <li>Wix</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Soft Skills</h3>
+          <ul>
+            <li data-key="softskills_1">Швидко навчаюся новому</li>
+            <li data-key="softskills_2">Відповідально ставлюся до завдань</li>
+            <li data-key="softskills_3">Уважна до деталей</li>
+            <li data-key="softskills_4">Орієнтована на результат</li>
+            <li data-key="softskills_5">Вміння працювати як самостійно, так і в команді</li>
+          </ul>
+        </article>
+      </section>
+    </section>
+
+    <section id="education">
+      <h2 data-key="education_title">Освіта</h2>
+      <article>
+        <h3 data-key="edu_kpi">Національний технічний університет України «Київський політехнічний інститут імені Ігоря Сікорського»</h3>
+        <p data-key="edu_speciality"><strong>Спеціальність:</strong> Комп'ютерні науки</p>
+        <p data-key="edu_period"><strong>Період:</strong> 2024 - 2028</p>
+      </article>
+      <article>
+        <h3 data-key="edu_courses">Додаткові курси</h3>
+        <article>
+            <h3 data-key="edu_shag">Мала комп’ютерна академія «ШАГ»</h3> 
+              <p data-key="edu_program">Програма додаткової ІТ-освіти для підлітків.</p>
+              <ul>
+                <li data-key="edu_1">Веб-розробка: HTML, JavaScript, Wix</li>
+                <li data-key="edu_2">Графічний та веб-дизайн: Photoshop, Illustrator, Figma, Inkscape, GIMP</li>
+                <li data-key="edu_3">3D-графіка та анімація: Blender, Autodesk 3ds Max, TinkerCad</li>
+                <li>GameDev: Unity, Unreal Engine, Construct, Click Fusion</li>
+                <li data-key="edu_4">Програмування: Python, C#, Go</li>
+                <li data-key="edu_5">Медіа та контент: Adobe Premiere, Sony Vegas, цифрова фотографія</li>
+                <li data-key="edu_6">Робототехніка та основи IT</li>
+              </ul>
+        </article>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p data-key="footer_rights">&copy; 2026 Катя. Усі права захищено.</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:k.cherevatenko.zk41.fbmi28@lll.kpi.ua">k.cherevatenko.zk41.fbmi28@lll.kpi.ua</a></li>
+      <li><strong>GitHub:</strong> <a href="https://github.com/" target="_blank" rel="noopener noreferrer">https://github.com/elora-coder</a></li>
+      <li><a data-key="nav_contacts" href="contacts.html">Контакти</a></li>
+    </ul>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

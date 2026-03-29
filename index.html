@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Мої проєкти</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top-panel">
+    <h1>Мої проєкти</h1>
+
+    <div class="controls">
+        <input id="search" type="text" placeholder="Пошук проєктів...">
+        <select id="filter">
+            <option value="all">Всі</option>
+            <option value="web">Web</option>
+            <option value="design">Design</option>
+            <option value="js">JavaScript</option>
+        </select>
+
+        <button id="themeToggle" class="theme-btn">🌓 Тема</button>
+    </div>
+</header>
+
+<div id="projectsContainer" class="cards"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
