@@ -49,6 +49,13 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "Веб-сервіс, що визначає ймовірний вік людини за її ім’ям за допомогою публічного API.",
         repo: "https://github.com/elora-coder/myprojects/tree/main/agify",
         site: "https://elora-coder.github.io/myprojects/agify/"
+    },
+    {
+        title: "Лабораторна №6",
+        category: "ts",
+        description: "Веб-застосунок на TypeScript, який отримує передбачений вік користувача за його ім’ям за допомогою API Agify та відображає результат у браузері.",
+        repo: "https://github.com/elora-coder/myprojects/tree/main/lab6",
+        site: "https://elora-coder.github.io/myprojects/lab6/"
     }
 ];
 
