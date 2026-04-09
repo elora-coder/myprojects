@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
         title: "Лабораторна №6",
-        category: "ts",
+        category: "js",
         description: "Веб-застосунок на TypeScript, який отримує передбачений вік користувача за його ім’ям за допомогою API Agify та відображає результат у браузері.",
         repo: "https://github.com/elora-coder/myprojects/tree/main/lab6",
         site: "https://elora-coder.github.io/myprojects/lab6/"
