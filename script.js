@@ -56,6 +56,20 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "Веб-застосунок на TypeScript, який отримує передбачений вік користувача за його ім’ям за допомогою API Agify та відображає результат у браузері.",
         repo: "https://github.com/elora-coder/myprojects/tree/main/lab6",
         site: "https://elora-coder.github.io/myprojects/lab6/"
+    },
+    {
+        title: "Лабораторна №7",
+        category: "js",
+        description: "Інтерактивний Todo-додаток, реалізований із використанням реактивного підходу (RxJS).",
+        repo: "https://github.com/elora-coder/myprojects/tree/main/lab7",
+        site: "https://elora-coder.github.io/myprojects/lab7/"
+    },
+    {
+        title: "Лабораторна №8",
+        category: "vue",
+        description: "Односторінковий застосунок (SPA) на Vue 3 з використанням Vue Router та компонентної архітектури.",
+        repo: "https://github.com/elora-coder/myprojects/tree/main/lab8",
+        site: "https://elora-coder.github.io/myprojects/lab8/"
     }
 ];
 
