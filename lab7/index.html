@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Todo list</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<h1>Todo List</h1>
+
+<form id="todo-form">
+  <input id="todo-input" placeholder="Нове завдання..." />
+  <button type="submit">Додати</button>
+</form>
+
+<div id="filters">
+  <button data-filter="all">Всі</button>
+  <button data-filter="active">Активні</button>
+  <button data-filter="completed">Виконані</button>
+  <a class="projects-btn" href="https://elora-coder.github.io/myprojects/">Проєкти</a>
+</div>
+
+<ul id="todo-list"></ul>
+
+<!-- RxJS -->
+<script src="assets/vendor/rxjs.umd.min.js"></script>
+
+<!-- Твій код -->
+<script type="module" src="assets/js/main.js"></script>
+
+</body>
+</html>
