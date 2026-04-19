@@ -2,15 +2,12 @@ import { fileURLToPath, URL } from 'node:url'
 
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import vueDevTools from 'vite-plugin-vue-devtools'
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: '/lab8/',
+  base: '/lab8/', // ✅ це правильно
 
   plugins: [
     vue(),
-    vueDevTools(),
   ],
 
   resolve: {
