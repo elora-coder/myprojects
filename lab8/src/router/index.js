@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router"; // 1. Змінили тут
 import Home from "../pages/Home.vue";
 import Contacts from "../pages/Contacts.vue";
 
@@ -8,6 +8,6 @@ const routes = [
 ];
 
 export default createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory("/myprojects/lab8/"), 
   routes,
 });
