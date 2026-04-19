@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
-  base: '/lab8/', // ✅ це правильно
+  base: '/lab8/',
 
   plugins: [
     vue(),
