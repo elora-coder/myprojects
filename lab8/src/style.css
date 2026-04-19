@@ -20,7 +20,7 @@ body {
   padding: 60px 10%;
   background:
     linear-gradient(120deg, rgba(255,250,240,0.9), rgba(255,246,228,0.85)),
-    url("public/img/city.jpg") center / cover no-repeat;
+    url("/img/city.jpg") center / cover no-repeat;
 }
 
 .hero-text {
