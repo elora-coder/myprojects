@@ -10,7 +10,7 @@ defineProps(["lang"]);
       <li><a href="#skills">{{ lang === "uk" ? "Навички" : "Skills" }}</a></li>
       <li><a href="#education">{{ lang === "uk" ? "Освіта" : "Education" }}</a></li>
       <li><router-link to="/contacts">{{ lang === "uk" ? "Контакти" : "Contacts" }}</router-link></li>
-      <li><a href="/index.html">{{ lang === "uk" ? "Проєкти" : "Project" }}</a></li>
+      <li><a href="/myprojects/index.html">{{ lang === "uk" ? "Проєкти" : "Project" }}</a></li>
     </ul>
   </nav>
 </template>
