@@ -22,6 +22,6 @@ defineProps(["lang"]);
       </router-link>
     </div>
 
-    <img src="/lab8/img/me.jpg" class="hero-img">
+    <img src="img/me.jpg" class="hero-img">
   </header>
 </template>
