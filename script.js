@@ -70,6 +70,13 @@ document.addEventListener("DOMContentLoaded", () => {
         description: "Односторінковий застосунок (SPA) на Vue 3 з використанням Vue Router та компонентної архітектури.",
         repo: "https://github.com/elora-coder/myprojects/tree/main/lab8",
         site: "https://elora-coder.github.io/myprojects/lab8/"
+    },
+    {
+        title: "Лабораторна №9",
+        category: "vue",
+        description: "Адаптація SPA на Vue 3 під різні екрани",
+        repo: "https://github.com/elora-coder/myprojects/tree/main/lab9",
+        site: "https://elora-coder.github.io/myprojects/lab9/"
     }
 ];
 
