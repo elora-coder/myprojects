@@ -316,7 +316,7 @@ body.dark nav,
 body.dark footer {
   background:
     linear-gradient(120deg, rgba(89, 86, 82, 0.9), rgba(74, 72, 64, 0.85)),
-    url("img/city.jpg") center / cover no-repeat;
+    url("/img/city.jpg") center / cover no-repeat;
 }
 
 .controls {
