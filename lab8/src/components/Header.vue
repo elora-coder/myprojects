@@ -17,7 +17,7 @@ defineProps(["lang"]);
           : "Front-end student • Design • Creative" }}
       </p>
 
-      <router-link to="/contacts" class="btn">
+      <router-link to="Contacts.vue" class="btn">
         {{ lang === "uk" ? "Зв’язатися" : "Contact me" }}
       </router-link>
     </div>
