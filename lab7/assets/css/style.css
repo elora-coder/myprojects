@@ -1,0 +1,187 @@
+/* Базові налаштування */
+:root {
+    --primary-color: #6366f1;
+    --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --text-color: #2d3436;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg-gradient);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+}
+
+h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Контейнер форми */
+#todo-form {
+    background: white;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+#todo-input {
+    border: none;
+    padding: 12px 15px;
+    width: 300px;
+    font-size: 16px;
+    outline: none;
+}
+
+#todo-form button {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: transform 0.2s, background 0.2s;
+}
+
+#todo-form button:hover {
+    background: #4f46e5;
+    transform: translateY(-1px);
+}
+
+/* Фільтри */
+#filters {
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px; 
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#filters button, 
+#filters .projects-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 10px 18px; 
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px; 
+    font-family: inherit; 
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+    outline: none;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+#filters button:hover,
+#filters .projects-btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+#filters .projects-btn {
+    text-decoration: none;    
+    display: inline-block;    
+    cursor: pointer;          
+    line-height: normal;      
+    vertical-align: middle;
+}
+
+#filters .projects-btn:visited, 
+#filters .projects-btn:active {
+    color: white;
+}
+
+/* Список */
+#todo-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 450px;
+}
+
+li {
+    background: white;
+    margin-bottom: 12px;
+    padding: 15px 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+li.completed {
+    background: #d8d8d8;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    color: #696969;
+}
+
+/* Кнопки дій */
+.actions {
+    display: flex;
+    gap: 5px;
+}
+
+.actions button{
+    border: none;
+    background: #f1f5f9;
+    border-radius: 6px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.toggle:hover { background: #dcfce7; color: #166534; }
+.edit:hover { background: #fef9c3; color: #854d0e; }
+.delete:hover { background: #fee2e2; color: #991b1b; }
+
+.done-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    background: #dcfce7;
+    color: #166534;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+li.completed .todo-text {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+li.completed .done-label {
+    text-decoration: none;
+}
